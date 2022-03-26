@@ -1,20 +1,47 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package typeofproperties;
 
-/**
- *
- * @author roky
- */
 public class TypeOfProperties {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+    }
+
+}
+
+//// Type od Properties 
+// 1. Read & Writeable  set and get method 
+// 2. Read Only : only get method 
+// 3. Write only : only set method 
+class Student {
+
+    private String roll;
+
+    public String getRoll() //Read Only : only get method 
+    {
+        return roll;
+    }
+
+}
+
+class Anccount {
+
+    private String accountNo;
+
+    public String getAccountNo() {//Read Only : only get method  
+        return accountNo;
+
+    }
+    
+
+}
+
+class Producer {
+    private int shareData;
+    
+    public void setData (int d)
+    {
+        shareData = d;
+        
     }
     
 }
