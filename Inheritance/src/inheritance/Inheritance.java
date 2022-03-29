@@ -5,7 +5,7 @@ public class Inheritance {
     public static void main(String[] args) {
         Cylinder c1 = new Cylinder();
         c1.height = 2.5;
-        c1.radius = 3.6;
+        c1.radius = 3.6; //Cylinder class is inheritances from Circle class : radius
 
         System.out.printf("LidArea: %.2f\n", c1.lidArea());
         System.out.printf("Total Surface Area: %.2f\n", c1.totalSurfaceArea());
