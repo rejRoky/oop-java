@@ -33,7 +33,7 @@ class Circle {
 
 }
 
-class Cylinder extends Circle {
+class Cylinder extends Circle { /// Cylinder class is inheritances from Circle class 
 
     public double height;
 
