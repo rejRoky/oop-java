@@ -57,6 +57,17 @@ class Outer {
         }.show(); /// Anonimus Object// this obj only use for this line
 
     }
+
+    /// Static innter class
+    int a = 10;
+    static int b = 20;
+
+    static class MyStatic {
+
+        public void show() {
+            System.out.println("" + b);
+        }
+    }
 }
 
 public class InnerClass {
@@ -76,6 +87,10 @@ public class InnerClass {
 
         ///Anonimus class
         o.display();
+
+        /// Static innter class
+        Outer.MyStatic so = new Outer.MyStatic();
+        so.show();
 
     }
 
