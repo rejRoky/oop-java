@@ -1,20 +1,32 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+final variable 
+final method
+final class
+
  */
 package finalmember;
 
-/**
- *
- * @author roky
- */
+class Test {
+
+    public final void show() //final Method 
+    {
+        System.out.println();
+    }
+}
+
+class Test1 extends Test {
+    //public void show(){}
+    //gives error as final methods cannot be overloaded.
+}
+
 public class FinalMember {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        final float PI; //final variable 
+        PI = 3.1425f;
+        System.out.println(PI);
+
     }
-    
+
 }
