@@ -1,6 +1,7 @@
 /**
  * Demo2
  */
+package mypack1;
 public class Demo2
 {
     Demo1 d=new Demo1();

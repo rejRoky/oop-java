@@ -1,7 +1,8 @@
 /**
  * Demo1
  */
-class Demo1
+package mypack1;
+public class Demo1
 {
     int a=10;
     //private.
