@@ -58,3 +58,5 @@
 /ExceptionProblemStack/build/
 /MultiThreading/target/
 /MultiThreadMethod/target/
+/MultiThreadSynchronization/nbproject/private/
+/MultiThreadSynchronization/build/
